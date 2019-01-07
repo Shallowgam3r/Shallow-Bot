@@ -35,7 +35,7 @@ Down below I will show you how to start up your own ShallowBot from scratch!
    
    - Alter ```settings.json``` as you see fit, in particular, the ```"account"``` you wish to be scanning for tweets.
    - Edit ```auth.json's``` properties to reflect those of which pertain to your own account information. Basically your *keys* and *tokens*. 
-   - If everything has been done correctly, running ```python ShallowBot.py``` should start up your Shallow Bot!
+   - If everything has been done correctly, running ```python bot.py``` should start up your Shallow Bot!
    
    #<h3> Settings.json
   - ```"account"``` - The handle of the account you wish to be scanning, not including the @. **The account must have over 3,600 tweets for it to work!**
