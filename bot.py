@@ -1,9 +1,8 @@
+import twitter, json, random, time, os
 # Welcome to ShallowBot! 
 # Github link > https://github.com/Shallowgam3r/Shallow-Bot
 # Contact <<Shallowrobot@gmail.com>>   
 # _*SLATT/!
-import twitter, json, random, time, os
-
 lastMentionId = 0
 settings = json.load(open('settings.json'))
 if settings['use_env_variables']:
