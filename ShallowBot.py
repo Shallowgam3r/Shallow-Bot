@@ -36,7 +36,7 @@ def constructTweet():
 	if len(tweetBody) > 0:
 		tweetBody = tweetBody.lower()
 		api.PostUpdate(tweetBody) # Send the completed tweet onto twitter
-		print("Tweet successfully posted!")
+		print("ShallowBot is functional! Tweet successfully posted!")
 
 def checkMentions():
 	global lastMentionId
@@ -48,7 +48,7 @@ def checkMentions():
 
 #if (len(api.GetMentions(since_id=lastMentionId, count=1)) > 0):
 	#lastMentionId = api.GetMentions(since_id=lastMentionId, count=1)[0].id
-print("Bot is now running...")
+print("ShallowBot is now running...")
 #checkMentions()
 #time.sleep(60)
 #checkMentions()
