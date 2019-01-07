@@ -9,9 +9,9 @@ The account can be seen live on Twitter under the handle [@ShallowRobot](https:/
 Down below I will show you how to start up your own ShallowBot from scratch!
 
 # <h3> Installation Requirements 
-- GIT
-- PYTHON
-- PIP
+- GIT [Windows](https://git-scm.com/download/win) / [Mac](https://git-scm.com/download/mac) 
+- [PYTHON](https://www.python.org/downloads/)
+- PIP [download](https://pip.pypa.io/en/stable/installing/)
   
   
 # <h3> Other requirements  <h4> Make a Twitter account
@@ -21,8 +21,19 @@ Down below I will show you how to start up your own ShallowBot from scratch!
   - While still logged into your new Twitter account, head on over to [Dev Twitter](https://developer.twitter.com/). You'll have to apply for a developers account (Easy). Just be honest and completely fill in all of the required areas. If you have any questions feel free to ask me! Usually after you apply for the dev account, Twitter takes about 2-3 hours to accept it! Once your dev account is accepted, you can proceed to the next step in setting up your ShallowBot!
     
   - Now that you have your dev account, the first thing you want to do is create a new app. For convenience, use the same name that you used with your new twitter account.Once you’ve named and created your app, you’re going to immediately want to adjust its permissions to **Read and Write**. In order to post to Twitter from a program, it needs to have a mobile number connected to the account — which is why you needed to create one earlier.
+  
   - Next, go to the API Keys page and click **Generate my Access Token,** and keep the window open while it works. You’ll need those keys and tokens in just a few minutes.   
   
   # <h3> Installation Guide
-  
-  to be continued...
+   - Open Git Bash (Run as administrator). On the first line, copy and paste this:     
+                            
+      ```git clone https://github.com/Shallowgam3r/Shallow-Bot.git```
+      
+   - Change into the correct directory by typing ```cd Shallow-Bot```
+           
+   - Next, copy and paste this code: ```pip install python-twitter```
+   
+   - Alter ```settings.json``` as you see fit, in particular, the ```"account"``` you wish to be scanning for tweets.
+   - Edit ```auth.json's``` properties to reflect those of which pertain to your own account information. Basically your *keys* and *tokens*. 
+   - If everything has been done correctly, running ```python bot.py``` should start up your Shallow Bot!
+   
